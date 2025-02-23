@@ -51,8 +51,8 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            SB Designs->https://sbdesigns.pages.dev
+            Trackle->https://trackle.pages.dev
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
